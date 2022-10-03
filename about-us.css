@@ -1,0 +1,145 @@
+/* body */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0px;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  background-color: #fdfdf8;
+}
+/* Nav bar */
+nav {
+  background-color: black;
+  height: 67px;
+  display: flex;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+
+  padding: 0px 20px;
+}
+nav button {
+  background-color: transparent;
+  border: none;
+}
+
+svg.brand {
+  width: 52px;
+  fill: white;
+}
+svg.brand:active,
+svg.brand:hover {
+  width: 52px;
+  fill: #8e9e60;
+  cursor: pointer;
+}
+a:active,
+a:hover {
+  color: #8e9e60;
+}
+button:hover svg g g path,
+button:active svg g g path,
+button:hover svg g g,
+button:active svg g g {
+  stroke: #8e9e60;
+}
+.wrapper {
+  position: relative;
+}
+.wrapper span {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  color: green;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 15px;
+  background-color: white;
+  height: 20px;
+  font-weight: 900;
+  font-size: 12px;
+}
+
+/* MainDiv */
+
+div.body {
+  height: 100%;
+  display: flex;
+}
+
+div.toLeft {
+  width: 100%;
+  background-image: url("/slider/pexels-photo-8092507.jpeg");
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+}
+div.toLeft p {
+  font-size: 42px;
+  color: #6c757d;
+}
+div.toRight {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.toRight p {
+  color: #6c757d;
+  width: 70%;
+}
+a:active,
+a:hover {
+  color: #8e9e60;
+}
+button:hover svg g g path,
+button:active svg g g path,
+button:hover svg g g,
+button:active svg g g {
+  stroke: #8e9e60;
+}
+
+
+/* Footer */
+footer {
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 209px;
+}
+footer div.right {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 13px;
+}
+footer div.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+}
+footer div.social {
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
